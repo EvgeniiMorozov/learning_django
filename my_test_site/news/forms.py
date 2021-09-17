@@ -35,9 +35,8 @@ from .models import News
 #         })
 #     )
 
+
 # Форма, связанная с моделью
-
-
 class NewsForm(forms.ModelForm):
     class Meta:
         model = News
